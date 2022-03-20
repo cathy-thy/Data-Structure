@@ -62,10 +62,6 @@ int main(){
     queue.Enqueue(5);
     printf("Got %d, expected 2\n", ele = queue.Dequeue());
     assert(ele == 2);
-    //queue.Enqueue(6);
-    // assert(!QueueIsEmpty(queue));
-    // printf("Got queue length of %d, expected 3\n", QueueLength(queue));
-    // assert(QueueLength(queue) == 3);
     printf("Test Completed!\n");
 }
 

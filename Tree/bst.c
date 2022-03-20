@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "bst.h"
+#include "BST.h"
 
 struct bstCDT {
    treeNodeADT root;
@@ -65,7 +65,7 @@ treeNodeADT GetMinNode(bstADT t) {
 }
 
 bstADT InsertNode(bstADT t, treeNodeADT n) {
-   int sign;
+   int sign; 
    if (BSTIsEmpty(t))
       return MakeBST(n, NULL, NULL);
    sign = strcmp(n->key, GetNodeKey(Root(t)));

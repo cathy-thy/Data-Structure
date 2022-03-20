@@ -1,3 +1,5 @@
+#ifndef stack_H
+#define stack_H
 
 typedef struct stackCDT *stackADT;
 
@@ -9,4 +11,6 @@ stackElementT Pop(stackADT stack);
 int StackSize(stackADT stack);
 int StackIsEmpty(stackADT stack);
 void Free(stackADT stack);
+
+#endif
 
